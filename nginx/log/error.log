@@ -1,0 +1,4 @@
+2021/08/23 15:06:05 [error] 8#8: *2 open() "/etc/nginx/html/swagger/index.html" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "localhost"
+2021/08/23 15:06:05 [error] 8#8: *2 open() "/etc/nginx/html/swagger/index.html" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "localhost"
+2021/08/23 15:07:34 [error] 8#8: *2 the rewritten URI has a zero length, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2021/08/23 15:08:21 [error] 7#7: *1 the rewritten URI has a zero length, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"

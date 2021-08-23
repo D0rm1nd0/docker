@@ -14,17 +14,12 @@ services:
       MYSQL_DATABASE: teste
     volumes:
       - db:/var/lib/mysql
-    networks:
-      - mysql-network
 
 volumes:
   db:
     driver: local
-    driver_opts:
-      type: "none"
-      o: "bind"
-      device: 'C:\docker_sharing'
 
 networks:
-  mysql-network:
-    driver: bridge
+  default:
+    external:
+      name: external-network
